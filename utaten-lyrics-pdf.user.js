@@ -1,10 +1,14 @@
 // ==UserScript==
 // @name         UtaTen Lyrics to PDF
-// @namespace    http://tampermonkey.net/
-// @version      1.0
+// @namespace    https://github.com/NiIsanDaYo/UtaTen-Lyrics-to-PDF
+// @version      1.1
 // @description  UtaTenの歌詞をふりがな付きでPDF化（印刷）するスクリプト
-// @author       You
+// @author       NiIsanDaYo
 // @match        https://utaten.com/lyric/*
+// @homepageURL  https://github.com/NiIsanDaYo/UtaTen-Lyrics-to-PDF
+// @supportURL   https://github.com/NiIsanDaYo/UtaTen-Lyrics-to-PDF/issues
+// @downloadURL  https://github.com/NiIsanDaYo/UtaTen-Lyrics-to-PDF/raw/main/utaten-lyrics-pdf.user.js
+// @updateURL    https://github.com/NiIsanDaYo/UtaTen-Lyrics-to-PDF/raw/main/utaten-lyrics-pdf.user.js
 // @grant        none
 // ==/UserScript==
 
