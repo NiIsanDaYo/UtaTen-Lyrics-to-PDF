@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "UtaTen Lyrics to PDF",
+  "version": "1.2.0",
+  "description": "UtaTenの歌詞をふりがな付きでPDF化（印刷）するChrome拡張機能です",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://utaten.com/lyric/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "UtaTen Lyrics to PDF",
+    "default_popup": "popup.html"
+  }
+}

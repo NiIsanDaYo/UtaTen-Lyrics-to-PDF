@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>UtaTen Lyrics to PDF</title>
+  <style>
+    body {
+      width: 250px;
+      margin: 0;
+      padding: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+    h3 {
+      margin: 0 0 16px 0;
+      font-size: 16px;
+      text-align: center;
+      color: #444;
+      font-weight: 600;
+    }
+    .btn {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .btn-ruby {
+      background-color: #ff5b4f;
+      color: white;
+    }
+    .btn-ruby:hover {
+      background-color: #e0483e;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+      transform: translateY(-1px);
+    }
+    .btn-noruby {
+      background-color: #3b82f6;
+      color: white;
+    }
+    .btn-noruby:hover {
+      background-color: #2563eb;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+      transform: translateY(-1px);
+    }
+    .btn:last-child {
+      margin-bottom: 0;
+    }
+    #status {
+      margin-top: 10px;
+      font-size: 12px;
+      text-align: center;
+      color: #e74c3c;
+      min-height: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h3>UtaTen 歌詞をPDF化</h3>
+  <button id="btn-ruby" class="btn btn-ruby">ふりがな付きで印刷</button>
+  <button id="btn-noruby" class="btn btn-noruby">ふりがな無しで印刷</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
